@@ -1,0 +1,90 @@
+* {
+  font-family: 'Anton', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+body {
+max-width: 400px;
+margin: auto;
+  color: #8d93ab;
+  background: #f1f3f8;
+
+}
+
+.main-header {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.title {
+font-family: 'Anton', sans-serif;
+font-size: 30px;
+background: #393b44;
+padding: 25px 0;
+margin: 0;
+width: 100%;
+text-align: center;
+}
+
+
+
+h3 {
+font-size: 25px;
+margin-bottom: 0;
+
+}
+
+h2 {
+  font-size: 25px;
+  font-family: 'Anton', sans-serif;
+  font-weight: 400;
+}
+
+.header-p {
+text-align: center;
+margin-top: 0;
+padding-top: 15px;
+padding-bottom: 25px;
+
+}
+
+
+input[class="contact"] {
+margin: 10px 0 10px;
+width: 100%;
+line-height: 32px;
+}
+
+select {
+margin: 10px 0 10px;
+padding: 10px;
+width: 100%;
+}
+
+input[placeholder="required"] {
+  text-align: right;
+  font-style: italic;
+  color: #8d93ab;
+}
+
+input[class="zip"] {
+width: 50%;
+margin: 10px 0 10px;
+line-height: 32px;
+}
+
+.top {
+  border: 3px solid #393b44;
+}
+
+.mid,
+.bottom {
+  border: 1px solid #393b44;
+}
+
+fieldset {
+  border: none;
+}
